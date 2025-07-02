@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -32,7 +32,7 @@ public class Product {
 
     @ManyToOne
     @JoinColumn(name = "subcategory_id")
-    private SubCategory subCategory;
+        private SubCategory subCategory;
 
 
     @ElementCollection

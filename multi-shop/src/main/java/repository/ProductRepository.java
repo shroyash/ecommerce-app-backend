@@ -1,6 +1,6 @@
 package repository;
 
-import Model.Product;
+import model.Product;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
