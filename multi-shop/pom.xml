@@ -60,6 +60,14 @@
 			<version>0.9.1</version>
 		</dependency>
 
+		<!-- Spring Boot Starter Test, includes JUnit 5 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+
 		<!-- Lombok for reducing boilerplate code -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
